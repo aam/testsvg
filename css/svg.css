@@ -1,0 +1,52 @@
+[id$=box1], [id$=box2], [id$=circle1], [id$=circle2] {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -moz-transition: -moz-transform 0.25s ease-in-out;
+  -o-transition: -o-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out; }
+
+#Menu, #Submenu {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: -moz-transform 0.25s ease-in-out;
+  -o-transition: -o-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out; }
+
+[id$=box1], [id$=box2] {
+  -webkit-transform: scale(0.5, 0.5);
+  -moz-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5); }
+
+[id$=circle1], [id$=circle2] {
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0); }
+
+#Menu:hover #Submenu {
+  opacity:1;
+  -webkit-transform: scale(1) translate(0px, 0px);
+}
+
+#Submenu {
+    opacity: 1;
+    -webkit-transform: scale(0) translate(0px, 0px);
+    -webkit-transform-origin: 446px 118px;
+}
+
+#twoboxes > g:hover [id$=box1], #twoboxes > g:hover [id$=box2] {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
+#twoboxes > g:hover [id$=circle1], #twoboxes > g:hover [id$=circle2] {
+  -webkit-transform: scale(1,1) translate(0px, 0px);
+  -moz-transform: scale(1,1) translate(0px, 0px);
+  -ms-transform: scale(1,1) translate(0px, 0px);
+  -o-transform: scale(1,1) translate(0px, 0px);
+  transform: scale(1,1) translate(0px, 0px); }  
+}
+

@@ -3,8 +3,29 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
-<rect x="64.975" y="45.658" fill="none" width="153.165" height="15.19"/>
-<text transform="matrix(1 0 0 1 64.9746 54.1782)" font-family="'MyriadPro-Regular'" font-size="12">How are you, Kuka?</text>
-<rect x="88.5" y="101.5" stroke="#FF0000" stroke-miterlimit="10" width="147" height="89"/>
-<rect x="106.5" y="88.5" fill="#FF00FF" stroke="#FF0000" stroke-miterlimit="10" width="70" height="128"/>
+<g id="twoboxes">
+	<g id="groupbox2">
+		<polyline id="box2" stroke="#FF0000" stroke-miterlimit="10" points="131.5,145.5 318.641,145.5 318.641,305.5 131.5,305.5 
+			131.5,145.5 		"/>
+		<g id="groupcircle2">
+			<ellipse id="circle2" fill="#85FF5F" stroke="#FFAF35" stroke-miterlimit="10" cx="242.5" cy="233.5" rx="39" ry="36.5"/>
+		</g>
+	</g>
+	<g id="groupbox1">
+		<rect id="box1" x="109.64" y="75.5" fill="#FF00FF" stroke="#FF0000" stroke-miterlimit="10" width="70" height="128"/>
+		<g id="groupcircle1">
+			<ellipse id="circle1_1_" fill="#1F32FF" stroke="#FFAF35" stroke-miterlimit="10" cx="144.64" cy="164" rx="21" ry="24.5"/>
+		</g>
+	</g>
+</g>
+<rect id="circle1" x="64.975" y="45.658" fill="none" width="153.165" height="15.19"/>
+<g id="Menu">
+	<g id="Submenu">
+		<rect x="426.5" y="117.5" fill="none" width="54" height="28"/>
+		<text transform="matrix(1 0 0 1 426.5 130.2798)" fill="#55D41F" font-family="'MyriadPro-Regular'" font-size="18">Okay</text>
+		<rect x="426.5" y="89.5" fill="none" width="102" height="28"/>
+		<text transform="matrix(1 0 0 1 426.5 102.2798)" fill="#FF683F" font-family="'MyriadPro-Regular'" font-size="18">Not too bad</text>
+	</g>
+	<text transform="matrix(0.9843 0 0 1 318.6406 60.8481)" font-family="'MyriadPro-Regular'" font-size="25.3813">How are you, Kuka?</text>
+</g>
 </svg>
